@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+.hero{
+    background: #f6f6f6 ;
+}
+
+.mysliderbg{
+    height: 80vh;
+    /* background-color: #555; */
+}
+
+.hero-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navbar a {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.navbar::after {
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+}
+
+.navbar>ul>li {
+    float: left;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 15px 10px;
+    display: block;
+}
+
+.navbar ul li a:hover {
+    font-weight: 600;
+}
+
+.navbar ul ul {
+    position: absolute;
+    padding: 0;
+    min-width: 160px;
+    display: none;
+    top: 100%;
+    left: 0;
+}
+
+.navbar ul li:hover>ul {
+    display: block;
+}
+
+.content ul li {
+    list-style: none;
+}
+
+.video {
+    background-image: url("https://cdn.pixabay.com/photo/2016/09/15/19/24/salad-1672505_960_720.jpg");
+    width: 100%;
+}
+.menu img{
+    align-items: center;
+    height: 35vh;
+}
+
+.more-btn{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.material-icons.md-50 {
+     font-size: 40px;
+     }
+  
+     
+ #footer{
+background-color: #1f1f24;
+color: #fff;
+
+ }    
+.icon{
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+.line{
+    border-bottom: 1px solid rgb(159, 157, 157);
+}
+
+.carousel-inner{
+    height: 100%;
+    width: 100%;
+}
+
+.testimonials{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    
+}
